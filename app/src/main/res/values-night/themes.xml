@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CRUD" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="AppToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <!-- Cambia el color del texto (color del título) en la barra de herramientas -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <color name="colorTextoListView">#000000</color>
+
+    <!-- Define tu estilo personalizado para el ListView -->
+    <style name="MyListViewItemStyle">
+        <item name="android:textColor">@color/colorTextoListView</item>
+    </style>
+
+</resources>
